@@ -1,0 +1,13 @@
+$white: #fff;
+
+$md-size: 1.6rem;
+$sm-size: 0.75 * $md-size;
+$lg-size: 2 * $md-size;
+$xl-size: 3 * $md-size;
+
+.my-0 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+$desktop-breakpoint: 45rem;

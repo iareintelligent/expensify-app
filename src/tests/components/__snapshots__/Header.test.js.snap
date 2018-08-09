@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should shallow render Header correctly 1`] = `
+<header>
+  <h1>
+    Expensify
+  </h1>
+  <nav>
+    <NavLink
+      activeClassName="is-active"
+      ariaCurrent="true"
+      className="mr-3"
+      exact={true}
+      to="/"
+    >
+      Dashboard
+    </NavLink>
+    <NavLink
+      activeClassName="is-active"
+      ariaCurrent="true"
+      className="mr-3"
+      exact={true}
+      to="/create"
+    >
+      Create Expense
+    </NavLink>
+    <NavLink
+      activeClassName="is-active"
+      ariaCurrent="true"
+      className="mr-3"
+      exact={true}
+      to="/help"
+    >
+      Help
+    </NavLink>
+  </nav>
+</header>
+`;
